@@ -1,0 +1,37 @@
+.container {
+    max-width: 1140px;
+    padding: 5px 10px;
+    height: 200px;
+}
+.searchInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.searchInput input {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+input:focus {
+    outline: none;
+}
+.searchIcon {
+    font-size: 35px;
+    height: 40px;
+}
+.dataResult {
+    margin-top: 5px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.dataResult::-webkit-scrollbar {
+    display: none;
+}
+#close {
+    cursor: pointer;
+}
